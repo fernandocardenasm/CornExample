@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330CD2927AF3CA8A5904E13F /* Pods_RxSwiftCornExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77192C91139035C8BE81493 /* Pods_RxSwiftCornExampleTests.framework */; };
+		6C4395D13C1B0371825140A0 /* Pods_RxSwiftCornExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC367BA365C6E2FD6B4BFBFB /* Pods_RxSwiftCornExample.framework */; };
 		ED794DE6222066F1009AD815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED794DE5222066F1009AD815 /* AppDelegate.swift */; };
 		ED794DE8222066F1009AD815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED794DE7222066F1009AD815 /* ViewController.swift */; };
 		ED794DEB222066F1009AD815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED794DE9222066F1009AD815 /* Main.storyboard */; };
 		ED794DED222066F3009AD815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED794DEC222066F3009AD815 /* Assets.xcassets */; };
 		ED794DF0222066F3009AD815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED794DEE222066F3009AD815 /* LaunchScreen.storyboard */; };
 		ED794DFB222066F3009AD815 /* RxSwiftCornExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED794DFA222066F3009AD815 /* RxSwiftCornExampleTests.swift */; };
+		ED794E0622206908009AD815 /* CornSorterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED794E0522206908009AD815 /* CornSorterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92FA26CF2BBC5712730564A6 /* Pods-RxSwiftCornExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCornExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCornExample/Pods-RxSwiftCornExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B77192C91139035C8BE81493 /* Pods_RxSwiftCornExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCornExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D375F26340878BDB5D1711B0 /* Pods-RxSwiftCornExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCornExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCornExampleTests/Pods-RxSwiftCornExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D617CC73F63AFDBDC9FE5DA3 /* Pods-RxSwiftCornExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCornExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCornExample/Pods-RxSwiftCornExample.release.xcconfig"; sourceTree = "<group>"; };
+		EC367BA365C6E2FD6B4BFBFB /* Pods_RxSwiftCornExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCornExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED794DE2222066F1009AD815 /* RxSwiftCornExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftCornExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED794DE5222066F1009AD815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED794DE7222066F1009AD815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		ED794DF6222066F3009AD815 /* RxSwiftCornExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftCornExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED794DFA222066F3009AD815 /* RxSwiftCornExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftCornExampleTests.swift; sourceTree = "<group>"; };
 		ED794DFC222066F3009AD815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED794E0522206908009AD815 /* CornSorterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornSorterTests.swift; sourceTree = "<group>"; };
+		F0D27937DB92C3A17546736D /* Pods-RxSwiftCornExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCornExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCornExampleTests/Pods-RxSwiftCornExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4395D13C1B0371825140A0 /* Pods_RxSwiftCornExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330CD2927AF3CA8A5904E13F /* Pods_RxSwiftCornExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B49F480A575AE947ED8D4339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92FA26CF2BBC5712730564A6 /* Pods-RxSwiftCornExample.debug.xcconfig */,
+				D617CC73F63AFDBDC9FE5DA3 /* Pods-RxSwiftCornExample.release.xcconfig */,
+				F0D27937DB92C3A17546736D /* Pods-RxSwiftCornExampleTests.debug.xcconfig */,
+				D375F26340878BDB5D1711B0 /* Pods-RxSwiftCornExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED794DD9222066F1009AD815 = {
 			isa = PBXGroup;
 			children = (
 				ED794DE4222066F1009AD815 /* RxSwiftCornExample */,
 				ED794DF9222066F3009AD815 /* RxSwiftCornExampleTests */,
 				ED794DE3222066F1009AD815 /* Products */,
+				B49F480A575AE947ED8D4339 /* Pods */,
+				F4DEF38085BAC9428AA9D9E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +117,18 @@
 			children = (
 				ED794DFA222066F3009AD815 /* RxSwiftCornExampleTests.swift */,
 				ED794DFC222066F3009AD815 /* Info.plist */,
+				ED794E0522206908009AD815 /* CornSorterTests.swift */,
 			);
 			path = RxSwiftCornExampleTests;
+			sourceTree = "<group>";
+		};
+		F4DEF38085BAC9428AA9D9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BA365C6E2FD6B4BFBFB /* Pods_RxSwiftCornExample.framework */,
+				B77192C91139035C8BE81493 /* Pods_RxSwiftCornExampleTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED794DFF222066F3009AD815 /* Build configuration list for PBXNativeTarget "RxSwiftCornExample" */;
 			buildPhases = (
+				B3FEC966DC7D470CBECB30C6 /* [CP] Check Pods Manifest.lock */,
 				ED794DDE222066F1009AD815 /* Sources */,
 				ED794DDF222066F1009AD815 /* Frameworks */,
 				ED794DE0222066F1009AD815 /* Resources */,
+				3134B01C0F0CE420418AE61B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED794E02222066F3009AD815 /* Build configuration list for PBXNativeTarget "RxSwiftCornExampleTests" */;
 			buildPhases = (
+				9FB1A12920539FC04441D4A7 /* [CP] Check Pods Manifest.lock */,
 				ED794DF2222066F3009AD815 /* Sources */,
 				ED794DF3222066F3009AD815 /* Frameworks */,
 				ED794DF4222066F3009AD815 /* Resources */,
+				091A50B75FB6154F62A1A7CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +231,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		091A50B75FB6154F62A1A7CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCornExampleTests/Pods-RxSwiftCornExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCornExampleTests/Pods-RxSwiftCornExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3134B01C0F0CE420418AE61B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCornExample/Pods-RxSwiftCornExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCornExample/Pods-RxSwiftCornExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB1A12920539FC04441D4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCornExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3FEC966DC7D470CBECB30C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCornExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED794DDE222066F1009AD815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -206,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED794E0622206908009AD815 /* CornSorterTests.swift in Sources */,
 				ED794DFB222066F3009AD815 /* RxSwiftCornExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,15 +483,14 @@
 		};
 		ED794E00222066F3009AD815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FA26CF2BBC5712730564A6 /* Pods-RxSwiftCornExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inhereted)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZXBK6BD56X;
 				INFOPLIST_FILE = RxSwiftCornExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = M.RxSwiftCornExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -376,15 +500,14 @@
 		};
 		ED794E01222066F3009AD815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D617CC73F63AFDBDC9FE5DA3 /* Pods-RxSwiftCornExample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inhereted)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZXBK6BD56X;
 				INFOPLIST_FILE = RxSwiftCornExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = M.RxSwiftCornExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -394,17 +517,14 @@
 		};
 		ED794E03222066F3009AD815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D27937DB92C3A17546736D /* Pods-RxSwiftCornExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZXBK6BD56X;
 				INFOPLIST_FILE = RxSwiftCornExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = M.RxSwiftCornExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -415,17 +535,14 @@
 		};
 		ED794E04222066F3009AD815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D375F26340878BDB5D1711B0 /* Pods-RxSwiftCornExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZXBK6BD56X;
 				INFOPLIST_FILE = RxSwiftCornExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = M.RxSwiftCornExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
